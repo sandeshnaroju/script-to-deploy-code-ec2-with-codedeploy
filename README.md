@@ -3,7 +3,7 @@ This is a simple script that deploys code to `aws ec2` instance using `aws coded
 
 ## How to use ?
 1. Download deploy.sh file and open it. 
-2. Replace <project_name>, <bucket_name>, <codedeploy_name> and <codedeploy_group_name>
+2. Replace `<project_name>`, `<bucket_name>`, `<codedeploy_app_name>` and `<codedeploy_group_name>`
 3. place the `deploy.sh` file along side of `appspec.yml`.
 4. run it like this `sh deploy.sh 0.0.1 "My first code deploy" `
 5. That's it.  
